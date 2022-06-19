@@ -2,17 +2,6 @@
 
 @import url('http://fonts.cdnfonts.com/css/monument-extended');
 
-@font-face {
-    font-family: MonumentExtended-Ultrabold;
-    src: url('../fonts/MonumentExtended-Bold.woff') format("woff");
-    font-weight: bold;
-}
-@font-face {
-    font-family: MonumentExtended-Regular;
-    src: url('../fonts/MonumentExtended-Regular.woff') format("woff");
-}
-
-
 // BREAKPOINTS
 // ------------
 
@@ -47,7 +36,7 @@ $coral: #FB534B;
 // ------------
 
 h1, h2, h3, h4{
-    font-family: MonumentExtended-Regular;
+    font-family: 'Monument Extended', sans-serif;                                            
     font-weight: 400;
     line-height: 1.4;
 }
