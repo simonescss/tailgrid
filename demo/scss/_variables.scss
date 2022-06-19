@@ -1,0 +1,53 @@
+// FONTS
+
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+@font-face {
+    font-family: MonumentExtended-Ultrabold;
+    src: url('fonts/MonumentExtended-Ultrabold.otf') format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: MonumentExtended-Regular;
+    src: url('fonts/MonumentExtended-Regular.otf') format("opentype");
+}
+
+
+// BREAKPOINTS
+// ------------
+
+$big-desktop: 1440px;
+$desktop: 1281px;
+$tablet: 990px;
+$mobile: 768px;
+
+
+// COLORS
+// ------------
+
+$sky: #22C9EF;
+$sea: #1F5488;
+$sun: #F9CA36;
+$coral: #FB534B;
+
+.b-sky{
+    background-color: $sky;
+}
+.b-sea{
+    background-color: $sea;
+}
+.b-sun{
+    background-color: $sun;
+}
+.b-coral{
+    background-color: $coral;
+}
+
+// TYPO
+// ------------
+
+h1, h2, h3, h4{
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
