@@ -19,3 +19,8 @@ Demo Page: https://tailgrid.netlify.com
 
 ## License
 MIT © 2022 [Simone Minniti](https://www.simoneminniti.it/).
+
+### Resources
+- Images: https://unsplash.com/
+- Animation: https://greensock.com/gsap/
+- Fonts: https://www.cdnfonts.com/monument-extended.font
