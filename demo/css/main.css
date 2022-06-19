@@ -208,6 +208,7 @@ nav a .marquee .content {
 @media (max-width: 768px) {
   nav a .marquee {
     opacity: 1;
+    height: 90px !important;
   }
 }
 nav a:hover .marquee {
