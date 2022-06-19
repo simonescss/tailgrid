@@ -3,16 +3,13 @@
 @import url('http://fonts.cdnfonts.com/css/monument-extended');
 
 @font-face {
-    font-family: 'Monument Extended';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff') format('woff');
+    font-family: MonumentExtended-Ultrabold;
+    src: url('../fonts/MonumentExtended-Bold.woff') format("woff");
+    font-weight: bold;
 }
 @font-face {
-    font-family: 'Monument Extended';
-    font-style: normal;
-    font-weight: 800;
-    src: local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff') format('woff');
+    font-family: MonumentExtended-Regular;
+    src: url('../fonts/MonumentExtended-Regular.woff') format("woff");
 }
 
 
@@ -50,7 +47,7 @@ $coral: #FB534B;
 // ------------
 
 h1, h2, h3, h4{
-    font-family: 'Monument Extended';
+    font-family: MonumentExtended-Regular;
     font-weight: 400;
     line-height: 1.4;
 }
