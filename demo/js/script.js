@@ -1,3 +1,17 @@
+ //--
+//  FIX HEIGHT VH MOBILE
+//--
+
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+if(window){
+  window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+}
+ 
  // navbar
  var hb = document.querySelector('.hb');
  var span = document.querySelectorAll('.hb span');
@@ -39,7 +53,8 @@
          duration: 1,
          opacity: 1,
          overflow: 'visible',
-         height: 'calc(100vh + 65px)', // change this to 100vh for full-height menu
+        //  height: 'calc(100vh + 65px)', 
+         height: 'calc(var(--vh, 1vh) * 100  + 65px)',
          ease: 'expo.inOut',
      })
      tl.from(menuItem, {
