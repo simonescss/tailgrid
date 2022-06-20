@@ -60,15 +60,33 @@ Gaps
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
 }
+@media (max-width: 768px) {
+  .gap-2 {
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+  }
+}
 
 .gap-3 {
   grid-column-gap: 2.5rem;
   grid-row-gap: 2.5rem;
 }
+@media (max-width: 768px) {
+  .gap-3 {
+    grid-column-gap: 1rem;
+    grid-row-gap: 2.5rem;
+  }
+}
 
 .gap-4 {
   grid-column-gap: 4rem;
   grid-row-gap: 4rem;
+}
+@media (max-width: 768px) {
+  .gap-4 {
+    grid-column-gap: 1rem;
+    grid-row-gap: 4rem;
+  }
 }
 
 /*-----
@@ -234,20 +252,6 @@ GRID SPAN SYSTEM
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
-@media (max-width: 768px) {
-  .grid[class*=gap-2] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
-  .grid[class*=gap-3] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
-  .grid[class*=gap-4] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
-}
 
 .sub-grid {
   display: grid;
@@ -329,18 +333,6 @@ GRID SPAN SYSTEM
   }
 }
 @media (max-width: 768px) {
-  .sub-grid[class*=gap-2] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
-  .sub-grid[class*=gap-3] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
-  .sub-grid[class*=gap-4] {
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-  }
   .sub-grid[class*=small-1] {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }

@@ -32,14 +32,26 @@ Gaps
 .gap-2{
     grid-column-gap: $gutter_2;
     grid-row-gap: $gutter_2;
+    @include mobile{
+        grid-column-gap: $gutter_1;
+        grid-row-gap: $gutter_2;
+    }
 }
 .gap-3{
     grid-column-gap: $gutter_3;
     grid-row-gap: $gutter_3;
+    @include mobile{
+        grid-column-gap: $gutter_1;
+        grid-row-gap: $gutter_3;
+    }
 }
 .gap-4{
     grid-column-gap: $gutter_4;
     grid-row-gap: $gutter_4;
+    @include mobile{
+        grid-column-gap: $gutter_1;
+        grid-row-gap: $gutter_4;
+    }
 }
 
 /*-----
