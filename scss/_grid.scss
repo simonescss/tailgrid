@@ -5,6 +5,20 @@ GRID SPAN SYSTEM
 .grid{
     display: grid;
     grid-template-columns: repeat(12,minmax(0,1fr));
+    @include mobile{
+        &[class*="gap-2"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
+        &[class*="gap-3"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
+        &[class*="gap-4"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
+    }
 }
 
 .sub-grid{
@@ -87,6 +101,18 @@ GRID SPAN SYSTEM
         }
     }
     @include mobile{
+        &[class*="gap-2"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
+        &[class*="gap-3"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
+        &[class*="gap-4"]{
+            grid-column-gap: $gutter_1;
+            grid-row-gap: $gutter_1;
+        }
         &[class*="small-1"]{
             grid-template-columns: repeat(1,minmax(0,1fr));
         }
