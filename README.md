@@ -1,6 +1,6 @@
 # TailGrid CSS
 Layout Grid System based on Grid CSS
-
+--
 Demo Page: https://tailgrid.netlify.com \
 Docs: (coming soon)
 
@@ -17,11 +17,10 @@ Docs: (coming soon)
   <link rel="stylesheet" href="tailgrid.min.css">
 </head>
 ```
-
-## License
-MIT © 2022 [Simone Minniti](https://www.simoneminniti.it/).
-
 ### Resources
 - Images: https://unsplash.com/
 - Animation: https://greensock.com/gsap/
 - Fonts: https://www.cdnfonts.com/monument-extended.font
+
+### License
+MIT © 2022 [Simone Minniti](https://www.simoneminniti.it/).
